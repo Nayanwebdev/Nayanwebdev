@@ -1,0 +1,61 @@
+/*----- MOBILE_MENU_START -----*/
+
+.mobile-menu-icon-dbp {
+    margin: 8px 0px 8px 10px;
+    padding: 0;
+    display: none;
+    float: right;
+}
+
+.menu-toggle-btn-hp {
+    margin: 0px;
+    padding: 4px 0px 4px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.menu-toggle-btn-hp span {
+    background: #00B8E4;
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 4px;
+    margin: 0px 0px 5px 0px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.menu-toggle-btn-hp span:last-child {
+    margin-bottom: 0px;
+}
+
+.menu-toggle-btn-hp.open span:nth-child(1),
+.menu-toggle-btn-hp.open span:nth-child(3) {
+    transform: translate(0px, 7px) rotate(-45deg) scalex(1);
+    margin-bottom: 0px;
+}
+
+.menu-toggle-btn-hp.open span:nth-child(2) {
+    height: 0;
+    margin-bottom: 0px;
+}
+
+.menu-toggle-btn-hp.open span:nth-child(3) {
+    transform: translate(0px, 5px) rotate(45deg) scalex(1);
+}
+
+.hide-scroll {
+    overflow: hidden !important;
+}
+
+
+/*----- MOBILE_MENU_END -----*/

@@ -1,0 +1,335 @@
+@media(min-width:0px) and (max-width:575px) {
+    .title-main h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #header {
+        display: none;
+    }
+    .banner .carousel-inner .carousel-item {
+        height: 500px;
+    }
+    .carousel-caption {
+        bottom: inherit;
+    }
+    .banner .carousel-inner .carousel-caption h4 {
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    .banner .carousel-inner .carousel-caption h1 {
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .banner .carousel-inner .carousel-caption .carosel-cap-btn a {
+        font-size: 13px;
+        padding: 12px;
+        letter-spacing: 0px;
+    }
+    .discover_more .discover_more-inner {
+        padding: 40px 0;
+        display: block;
+    }
+    .discover_more .discover_more-inner h3 {
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+    .discover_more .discover_more-inner .disc-btn a {
+        font-size: 13px;
+        padding: 15px 20px;
+        letter-spacing: 0;
+        margin-top: 10px;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .about .about-inner .about-left .milestone-block {
+        position: inherit;
+        right: 0;
+        padding: 20px 0;
+        width: 200px;
+    }
+    .about-inner {
+        padding: 0;
+    }
+    .about .about-inner .about-left .milestone-block .milestone-box {
+        padding: 25px;
+        margin-bottom: 10px;
+    }
+    .about-right {
+        padding: 30px 0 0;
+    }
+    .about .about-inner .about-right .right-inner-content h2 {
+        margin-bottom: 20px;
+    }
+    .about .about-inner .about-right .right-inner-content h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .about .about-inner .about-right .right-inner-content p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .about .about-inner .about-right .right-inner-content .about-right-list {
+        margin-bottom: 20px;
+    }
+    .about .about-inner .about-right .right-inner-content .about-right-list li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .services {
+        padding: 50px 0;
+    }
+    .services .title-main {
+        margin-bottom: 30px;
+    }
+    .services-slider {
+        padding: 0;
+    }
+    .services .services-slider .slick-carousel .slick-box .inner-slick-box .slick-contant {
+        padding: 25px;
+    }
+    .services .services-slider .slick-carousel .slick-box .inner-slick-box .slick-contant h4 {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0px 0 20px;
+    }
+    .services .services-slider .slick-carousel .slick-box .inner-slick-box .slick-contant p {
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .services .services-slider .slick-carousel .slick-box .inner-slick-box .slick-contant .read-more a {
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .solutions {
+        padding: 50px 0;
+    }
+    .inner-solution {
+        padding: 0;
+    }
+    .solutions .inner-solution .inner-solution-left .left-top .sol-btn a {
+        font-size: 14px;
+        letter-spacing: 0px;
+        padding: 16px 20px;
+        margin-top: 30px;
+    }
+    .solutions .inner-solution .inner-solution-left .left-top {
+        padding-bottom: 60px;
+    }
+    .solutions .inner-solution .inner-solution-left .left-bottom {
+        display: block;
+        background-color: white;
+        padding: 20px;
+    }
+    .solutions .inner-solution .inner-solution-left .left-bottom .inner-btm-img {
+        margin-bottom: 15px;
+    }
+    .solutions .inner-solution .inner-solution-right .video {
+        text-align: center;
+    }
+    .solutions .inner-solution .inner-solution-right .video a {
+        width: 80px;
+        height: 80px;
+        font-size: 28px;
+        line-height: 90px;
+    }
+    .solutions .inner-solution .inner-solution-right .inner-right-contant {
+        padding: 25px 20px;
+    }
+    .solutions .inner-solution .inner-solution-right .inner-right-contant .top p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .solutions .inner-solution .inner-solution-right .inner-right-contant .top h4 {
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .solutions .inner-solution .inner-solution-right .inner-right-contant .bottom .inner-btm-progress {
+        margin-bottom: 25px;
+    }
+    .partner-slider {
+        padding: 60px 0;
+    }
+    .portfolio {
+        padding: 50px 0;
+    }
+    .portfolio #filter {
+        padding: 0 0 25px;
+    }
+    .inner-portfolio {
+        padding: 0;
+    }
+    #posts .main-post:last-child {
+        margin-bottom: 0;
+    }
+    .client-feedback .client-bg {
+        padding: 50px 0;
+    }
+    .client-feedback .client-bg .client-feedback-left .feedback-title {
+        padding-left: 0px;
+        padding-bottom: 25px;
+    }
+    .client-feedback-right {
+        padding: 0;
+    }
+    .client-feedback .client-bg .client-feedback-right .slick-box .inner-slick-box .slick-contant {
+        padding: 30px;
+    }
+    .client-feedback .client-bg .client-feedback-right .slick-box .inner-slick-box .slick-contant .quote {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .client-feedback .client-bg .client-feedback-right .slick-box .inner-slick-box .slick-contant .custo-info {
+        margin-top: 20px;
+    }
+    .client-feedback .client-bg .client-feedback-right .slick-box .inner-slick-box .slick-contant .custo-info .custo-img {
+        bottom: -82px;
+    }
+    .slick-slider {
+        margin-bottom: 0px;
+    }
+    .slick-slide {
+        padding: 0 10px;
+    }
+    .industrial-group .inner-industrial-group .indus-group-left {
+        padding: 50px 0;
+    }
+    .inner-industrial-group {
+        padding: 0;
+    }
+    .industrial-group .container-fluid {
+        padding: 0;
+    }
+    .industrial-group .inner-industrial-group .indus-group-left .left-contant {
+        padding: 0 20px;
+    }
+    .industrial-group .inner-industrial-group .indus-contant-box-1 {
+        padding-bottom: 30px;
+    }
+    .industrial-group .indus-group-right .right-contant .right-contant-inner {
+        padding: 50px 30px 20px;
+    }
+    .industrial-group .indus-group-right .right-contant .right-contant-inner p {
+        font-size: 17px;
+        line-height: 30px;
+        margin: 25px 0;
+    }
+    .industrial-group .indus-group-right .right-contant .right-contant-inner .right-contant-img .text {
+        bottom: 15px;
+        padding: 14px;
+    }
+    .indus-group-right {
+        padding: 0;
+    }
+    .news-article {
+        padding: 50px 0;
+    }
+    .news-article .container {
+        padding: 0;
+    }
+    .news-article .title-main {
+        padding-bottom: 30px;
+    }
+    .inner-article {
+        padding: 0;
+    }
+    .news-article .article-slider .article-box .inner-article-box .article-contant .post-meta {
+        padding: 35px 0 5px;
+    }
+    .news-article .article-slider .article-box .inner-article-box .article-contant {
+        padding: 0 30px 30px 20px;
+    }
+    .estimate .inner-estimate .estimate-right-box .contant {
+        padding: 30px;
+        display: block;
+    }
+    .estimate .inner-estimate .estimate-right-box .contant p {
+        max-width: 100%;
+        line-height: 30px;
+    }
+    .estimate .inner-estimate .estimate-right-box .contant h3 {
+        font-size: 22px;
+        line-height: 30px;
+        padding-left: 0;
+        max-width: 100%;
+    }
+    .estimate .inner-estimate .estimate-right-box .contant h3 span {
+        display: block;
+    }
+    .inner-map {
+        padding: 0px;
+    }
+    #footer .footer-main {
+        padding: 50px 0;
+    }
+    #footer .footer-main .footer-about-content .footer-about-content-inner p {
+        line-height: 30px;
+    }
+    #footer .footer-main .footer-about-content .footer-about-content-inner .info-list li:last-child {
+        padding-bottom: 0px;
+    }
+    #footer .footer-main .footer-about-content .footer-about-content-inner .info-list li {
+        padding-bottom: 20px;
+        display: block;
+    }
+    .footer-about-content,
+    .footer-links,
+    .featured-post {
+        margin-bottom: 35px;
+        padding: 0;
+    }
+    #footer .footer-main .footer-title {
+        margin-bottom: 20px;
+    }
+    #footer .footer-main .footer-links .footer-links-inner .menu li {
+        padding: 0px 0 20px;
+        display: block;
+    }
+    .footer-news {
+        padding: 0;
+    }
+    .f-link {
+        padding: 0;
+    }
+    #footer .footer-main .footer-news .footer-news-inner p {
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    #footer .copyright .inner-copyright {
+        display: block;
+    }
+    #footer .copyright {
+        padding: 0 0 30px;
+    }
+    #footer .copyright .inner-copyright .left {
+        margin-bottom: 20px;
+    }
+    #footer .copyright .inner-copyright .right {
+        text-align: right;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    #header {
+        display: none;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #header {
+        display: none;
+    }
+}
+
+@media(min-width:992px) and (max-width:1290px) {}
+
+@media(min-width:1291px) and (max-width:8000px) {}

@@ -1,0 +1,62 @@
+  /* Defines the width of the carousel and centers it on the page */
+  
+  .slick-carousel {
+      margin: 0 auto;
+      max-width: 1200px;
+  }
+  /* The width of each slide */
+  
+  .slick-slide {
+      width: 350px;
+      padding: 0 15px;
+  }
+  /* Color of the arrows */
+  
+  .slick-next::before,
+  .slick-prev::before {
+      color: black;
+  }
+  
+  .services .slick-dots {
+      display: none !important;
+  }
+  
+  .services .slick-next {
+      right: 8px;
+      z-index: 1;
+  }
+  
+  .slick-prev {
+      left: 0;
+      z-index: 1;
+  }
+  
+  .slick-next {
+      right: 0;
+      z-index: 1;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+      font-size: 30px;
+  }
+  
+  .partner-slider button.slick-prev.slick-arrow,
+  .partner-slider button.slick-next.slick-arrow {
+      display: none !important;
+  }
+  
+  .slick-next::before,
+  .slick-prev::before {
+      color: #ea130e;
+  }
+  
+  .client-feedback .slick-next {
+      right: 10px;
+      z-index: 1;
+  }
+  
+  .client-feedback .slick-prev,
+  .client-feedback .slick-next {
+      margin-top: -25px;
+  }
