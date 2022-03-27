@@ -12,7 +12,7 @@ $(".slick-carousel").slick({
             adaptiveHeight: true
         }
     }, {
-        breakpoint: 767,
+        breakpoint: 991,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -28,7 +28,7 @@ $('.autoplay').slick({
     responsive: [{
         breakpoint: 1291,
         settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 2,
             adaptiveHeight: true
         }
@@ -36,6 +36,12 @@ $('.autoplay').slick({
         breakpoint: 767,
         settings: {
             slidesToShow: 2,
+            slidesToScroll: 1
+        }
+    }, {
+        breakpoint: 576,
+        settings: {
+            slidesToShow: 1,
             slidesToScroll: 1
         }
     }]
