@@ -5,14 +5,14 @@ $(".slick-carousel").slick({
     arrows: true, // Adds arrows to sides of slider
     dots: true, // Adds the dots on the bottom
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1291,
         settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
             adaptiveHeight: true
         }
     }, {
-        breakpoint: 600,
+        breakpoint: 767,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -26,19 +26,25 @@ $('.autoplay').slick({
     autoplaySpeed: 2000,
     smartSpeed: 1000,
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1291,
         settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 2,
             adaptiveHeight: true
         }
     }, {
-        breakpoint: 600,
+        breakpoint: 767,
         settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1
         }
     }]
+}, {
+    breakpoint: 600,
+    settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
 });
 $('.autoplay-client').slick({
     slidesToShow: 2,
@@ -47,24 +53,11 @@ $('.autoplay-client').slick({
     autoplaySpeed: 2000,
     smartSpeed: 1000,
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1291,
         settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             adaptiveHeight: true
-        }
-    }, {
-        breakpoint: 991,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-        }
-
-    }, {
-        breakpoint: 600,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
         }
     }]
 });
@@ -111,4 +104,29 @@ $(".mobile-menu-icon-dbp").click(function() {
     $("body").toggleClass("sidebar-open-mob-dbp");
     $('body').addClass("reduce-sidebar-mob-dbp");
     //$("body").toggleClass("hide-scroll");
+});
+
+// counter js
+$(document).ready(function() {
+    var counters = $(".count");
+    var countersQuantity = counters.length;
+    var counter = [];
+
+    for (i = 0; i < countersQuantity; i++) {
+        counter[i] = parseInt(counters[i].innerHTML);
+    }
+
+    var count = function(start, value, id) {
+        var localStart = start;
+        setInterval(function() {
+            if (localStart < value) {
+                localStart++;
+                counters[id].innerHTML = localStart;
+            }
+        }, 40);
+    };
+
+    for (j = 0; j < countersQuantity; j++) {
+        count(0, counter[j], j);
+    }
 });
