@@ -221,6 +221,9 @@
     .client-feedback .slick-slide {
         padding: 0;
     }
+    .client-feedback .client-bg .client-feedback-right .slick-box .inner-slick-box .slick-contant .testimonial-icon {
+        right: 0;
+    }
     /* Client Feedback End */
     /* Industrial Group Start */
     .industrial-group .inner-industrial-group .indus-group-left {
@@ -290,6 +293,9 @@
     }
     .estimate .inner-estimate .estimate-right-box .contant h3 span {
         display: block;
+    }
+    .estimate .inner-estimate .estimate-right-box {
+        padding: 0;
     }
     /* Get Estimate End */
     /* Map Start */
