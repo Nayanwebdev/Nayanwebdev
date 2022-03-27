@@ -383,6 +383,7 @@ ul li {
 }
 
 .about .about-inner .about-right .right-inner-content .about-right-list li {
+  display: block;
   font-size: 18px;
   margin-bottom: 20px;
   font-weight: 500;
