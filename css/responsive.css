@@ -300,7 +300,7 @@
     /* Footer Start */
     #footer .footer-main {
         padding: 50px 0;
-        background-position: bottom;
+        background-image: none;
     }
     #footer .footer-main .footer-about-content .footer-about-content-inner p {
         line-height: 30px;
@@ -340,13 +340,16 @@
         display: block;
     }
     #footer .copyright {
-        padding: 0 0 30px;
+        padding: 25px 0;
     }
     #footer .copyright .inner-copyright .left {
         margin-bottom: 20px;
     }
     #footer .copyright .inner-copyright .right {
         text-align: right;
+    }
+    .copyright {
+        background-color: #101010;
     }
     /* Footer End */
 }
