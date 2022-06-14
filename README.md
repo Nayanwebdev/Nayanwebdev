@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Nayanwebdev
 - 👀 I’m interested in web developement
 - 🌱 I’m currently learning frontend
-- 💞️ I’m looking to collaborate on frontend for internship
+- 💞️ I’m looking to collaborate on frontend developer
 - 📫 How to reach me by email nayanwebdevelpoment1@gmail.com
 
 <!---
